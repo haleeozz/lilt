@@ -1,0 +1,16 @@
+{
+  "name": "lilt-account-migration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first Spotify library consolidation prototype",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/server.cjs",
+    "test": "node --test",
+    "demo": "node demo.cjs",
+    "check:release": "node scripts/check-release.cjs"
+  }
+}
